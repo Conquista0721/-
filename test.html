@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 50px;
+			background-color: gray;
+		}
+		h1.logo{
+			color: white;
+			position: absolute;
+			top: -15px;
+			left: 10px;
+		}
+		img.photo{
+			position: relative;
+			top: 42px;
+			left:-10px;
+			width: 30%;
+			height: 250px;
+		}
+		h1.name{
+			position: absolute;
+			top: 30px;
+			left: 29.5%;
+			width: 50%;
+			height: 50px;
+			background-color: #B0E0E6;
+		}
+		h3.connection{
+			position: absolute;
+			top: 81px;
+			left: 29.5%;
+			width: 50%;
+			height: 200px;
+			background-color: #87CEFA;
+		}
+		h1.tel{
+			position: absolute;
+			top: 30px;
+			left: 79.5%;
+			width: 20.5%;
+			height: 62.5px;
+			background-color: #00BFFF;
+		}
+		h1.email{
+			position: absolute;
+			top: 92.5px;
+			left: 79.5%;
+			width: 20.5%;
+			height: 62.5px;
+			background-color: #6495ED;
+		}
+		h1.FB{
+			position: absolute;
+			top: 155px;
+			left: 79.5%;
+			width: 20.5%;
+			height: 62.5px;
+			background-color: #87CEEB;
+		}
+		h1.IG{
+			position: absolute;
+			top: 217.5px;
+			left: 79.5%;
+			width: 20.5%;
+			height: 62.5px;
+			background-color: #ADD8E6;
+		}
+		.copy{
+			clear: both;
+			text-align: center;
+			padding:50px;
+		}
+		.ca-menu{
+			padding:0;
+			margin:20px auto;
+			width: 1020px;
+		}
+		.ca-menu li{
+			width: 200px;
+			height: 250px;
+			top: 22px;
+			overflow: hidden;
+			position: relative;
+			float:left;
+			background: -webkit-linear-gradient(left, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			margin-right: 4px;
+		}
+		.ca-menu li:last-child{
+			margin-right: 0px;
+		}
+		.ca-menu li a{
+			text-align: left;
+			width: 100%;
+			height: 100%;
+			display: block;
+			color: #333;
+			position: relative;
+		}
+		.ca-icon{
+    		font-family: 'WebSymbolsRegular', cursive;
+    	 	font-size: 60px;
+    		color: #ddd;
+    		text-shadow: 1px 0px 1px rgba(255,255,255,0.8);
+    		line-height: 150px;
+    		position: absolute;
+    		width: 100%;
+   			height: 50%;
+   			left: 0px;
+    		top: 0px;
+   			text-align: center;
+   		}
+   		.ca-content{
+   			position: absolute;
+   			left: 0px;
+   			width: 100%;
+   			height: 50%;
+   			top: 50%;
+   		}
+   		.ca-main{
+   			font-size: 30px;
+   			opacity: 0.8;
+   			text-align: center;
+   		}
+   		.ca-sub{
+    		text-align:center;
+   			font-size: 14px;
+   			color: #afa379;
+   			text-shadow: 1px 1px 1px #fff;
+   			line-height: 40px;
+   			opacity: 0.8;
+   		}
+   		.ca-menu li:hover{
+   			background:#fff;
+		}
+		.ca-menu li:hover .ca-icon{
+   			color: #afa379;
+   			font-size: 90px;
+    		opacity: 0.1;
+		}
+		.ca-menu li:hover .ca-main{
+    		color: #afa379;
+		}
+		.ca-menu li:hover .ca-sub{
+    		color: #000;
+		}
+	</style> 
+</head>
+<body>
+	<header id="header">
+		<div class="inner">
+			<h1 class="logo">David</h1>
+		</div> 
+	</header>
+	
+	<section>
+		<div>
+			<img src="images/banner.jpg" class="photo">
+		</div>
+	</section>
+
+	<article>
+		<div>
+			<h1 class="name">David Tu</h1>
+			<h3 class="connection">birth:<br>introduce:</h3>
+		</div>
+	</article>
+
+	<aside>
+		<div>
+			<h1 class="tel">tel</h1>
+			<h1 class="email">email</h1>
+			<h1 class="FB">FB</h1>
+			<h1 class="IG">IG</h1>
+		</div>
+	</aside>
+
+	<div class="container">
+		<div class="content">
+			<ul class="ca-menu">
+				<li>
+					<a href="#">
+						<span class="ca-icon">A</span>
+						<div class="ca-content">
+							<h2 class="ca-main">學歷背景</h2>
+							<h3 class="ca-sub">Personalized to your needs</h3>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                	<a href="#">
+                        <span class="ca-icon">I</span>
+                        <div class="ca-content">
+                        	<h2 class="ca-main">活動經驗</h2>
+                            <h3 class="ca-sub">Advanced use of technology</h3>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="ca-icon">C</span>
+                        <div class="ca-content">
+                            <h2 class="ca-main">工作經驗</h2>
+                            <h3 class="ca-sub">Understanding visually</h3>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="ca-icon">S</span>
+                        <div class="ca-content">
+                            <h2 class="ca-main">興趣</h2>
+                            <h3 class="ca-sub">Professionals in action</h3>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="ca-icon">d</span>
+                        <div class="ca-content">
+                            <h2 class="ca-main">目標</h2>
+                            <h3 class="ca-sub">24/7 for you needs</h3>
+                        </div>
+                    </a>
+                </li> 
+            </ul> 
+        </div> 
+    </div>
+    <footer>
+    	<p class="copy">版權所有.Copyright © 2019 TU TE-WEI All Rights Reserved <p>
+    </footer>
+    
+
+</body>
+</html>
