@@ -1,0 +1,224 @@
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+h1.logo{
+	font-family:Impact;
+	color: white;
+	position: absolute;
+	top: -15px;
+	left: 10px;
+}
+img.photo{
+	position: relative;
+	top: 42px;
+	left:-10px;
+	width: 30%;
+	height: 250px;
+}
+h1.name{
+	font-family:微軟正黑體;
+	position: absolute;
+	top: 30px;
+	left: 29.5%;
+	width: 50%;
+	height: 50px;
+	background-color: #B0E0E6;
+}
+h3.connection{
+	position: absolute;
+	top: 81px;
+	left: 29.5%;
+	width: 50%;
+	height: 200px;
+	background-color: #87CEFA;
+}
+
+
+
+
+.S-menu li{
+	position: relative;
+	top:-228px;
+	left:75%;
+    width: 25.5%;
+    height: 62.5px;
+    overflow: hidden;
+    display: block;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    border-left: 10px solid #000;
+}
+.S-menu li a{
+    text-align: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    position:relative;
+}
+.S-icon{
+    font-size: 30px;
+    text-shadow: 0px 0px 1px #333;
+    line-height: 65px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+}
+.S-siderbar{
+    position: absolute;
+    left: 60px;
+}
+.S-main{
+	position: relative;
+	top: -10px;
+    font-size: 30px;
+}
+.S-sub{
+	color: #fff;
+}
+.S-menu li:hover{
+    border-color: #fff004;
+    background: #000;
+}
+.S-menu li:hover .S-icon{
+    color: #fff004;
+    text-shadow: 0px 0px 1px #fff004;
+    font-size: 50px;
+}
+.S-menu li:hover .S-main{
+    color: #fff004;
+    font-size: 0px;
+}
+.S-menu li:hover .S-sub{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.BA-menu{
+	padding:0;
+	margin:20px auto;
+	width: 1020px;
+}
+.BA-menu li{
+	position: relative;
+	top:-225px;
+	width: 200px;
+	height: 250px;
+	overflow: hidden;
+	float:left;
+	background: -webkit-linear-gradient(left, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	margin-right: 4px;
+}
+.BA-menu li:last-child{
+	margin-right: 0px;
+}
+.BA-menu li a{
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #333;
+	position: relative;
+}
+.BA-icon{
+    font-family:WebSymbolsRegular, cursive;
+    font-size: 60px;
+    color: #ddd;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.8);
+    line-height: 150px;
+    position: absolute;
+    width: 100%;
+   	height: 50%;
+   	left: 0px;
+    top: 0px;
+   	text-align: center;
+}
+.BA-BArea{
+   	position: absolute;
+   	left: 0px;
+   	width: 100%;
+   	height: 50%;
+   	top: 50%;
+}
+.BA-main{
+	font-family:微軟正黑體;
+   	font-size: 30px;
+   	opacity: 0.8;
+   	text-align: center;
+}
+.BA-sub{
+   	text-align:center;
+   	font-size: 17px;
+   	color: #afa379;
+   	text-shadow: 1px 1px 1px #fff;
+   	line-height: 30px;
+  	opacity: 0.8;
+}
+.BA-menu li:hover{
+   	background:#fff;
+}
+.BA-menu li:hover .BA-icon{
+   	color: #afa379;
+   	font-size: 90px;
+    opacity: 0.1;
+}
+.BA-menu li:hover .BA-main{
+    color: #afa379;
+}
+.BA-menu li:hover .BA-sub{
+    color: #000;
+}
+
+
+.E{
+	font-family:微軟正黑體;
+	position:relative;
+	top:40px;
+	left: -1000px;
+}
+.SCH1{
+	position:relative;
+	width: 80px;
+	height: 80px;
+}
+.SCH2{
+	position:relative;
+	width: 80px;
+	height: 80px;
+}
+.A{
+	font-family:微軟正黑體;
+	position:relative;
+	top:-222px;
+	left: 335px;
+}
+.CL{
+	position:relative;
+	width: 80px;
+	height: 80px;
+}
+.W{
+	font-family:微軟正黑體;
+	position:relative;
+	top:-375px;
+	left: 545px;
+}
+
+.copy{
+	clear: both;
+	text-align: center;
+	padding:50px;
+	background-color:gray;
+}
+footer{
+	position: relative;
+	top: 40px;
+}
